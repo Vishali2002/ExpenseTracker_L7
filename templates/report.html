@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report</title>
+</head>
+<body>
+    <h1>Spending Report</h1>
+    <table>
+        <tr>
+            <th>Category</th>
+            <th>Total Spent</th>
+        </tr>
+        {% for entry in report %}
+        <tr>
+            <td>{{ entry.name }}</td>
+            <td>{{ entry.total_spent }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <a href="{{ url_for('index') }}">Back to Home</a>
+</body>
+</html>
