@@ -3,7 +3,7 @@ import pymysql
 # Database configuration
 db_config = {
     'user': 'root',
-    'password': 'tanvi.G@164',
+    'password': 'add your own',
     'host': '127.0.0.1',
     'database': 'expense_tracker'
 }
