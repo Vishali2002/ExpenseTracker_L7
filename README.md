@@ -1,7 +1,3 @@
-Here's a simple README file for your expense tracker application. You can copy and paste this into a `README.md` file in your project directory.
-
----
-
 # Expense Tracker Application
 
 ## Overview
